@@ -245,7 +245,7 @@ body {
 
 /* 고딕 타이틀 */
 .gothic-title {
-    top: 40%;
+    bottom: 12%;
     left: 4%;
     font-family: 'UnifrakturMaguntia', cursive;
     font-size: 3.5rem;
@@ -434,6 +434,7 @@ body {
 }
 .character-content .char-subtitle {
     font-size: 0.85rem;
+    margin-left: 40%;
     color: #666;
     margin-bottom: 25px;
     font-style: italic;
@@ -442,7 +443,6 @@ body {
     font-size: 0.85rem;
     line-height: 1.9;
     color: #333;
-    margin-bottom: 30px;
 }
 .character-content .char-stats {
     display: flex;
