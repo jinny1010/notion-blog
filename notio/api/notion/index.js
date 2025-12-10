@@ -35,7 +35,7 @@ async function getProfiles() {
       charElement: getRichText(props.charElement),
       charOrigin: getRichText(props.charOrigin),
       shapeColor: getRichText(props.shapeColor) || '#ffffff',
-      isFlipped: props.isFlipped?.checkbox || true,
+      isFlipped: props.isFlipped?.checkbox || false,
     };
   });
 }
